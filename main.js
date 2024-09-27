@@ -316,6 +316,8 @@ async function main() {
           if (header) {
             header.style.zIndex = '0'
           }
+          // Trigger fullscreen mode using the Fullscreen API
+          document.documentElement.requestFullscreen(); // Pink highlight here
         })()`)
       }
 
